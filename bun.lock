@@ -1,0 +1,22 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "pm-tenant-maintenance-triage",
+      "dependencies": {
+        "preact": "10.29.8",
+      },
+      "peerDependencies": {
+        "@vellumai/plugin-api": "^0.10.0",
+      },
+    },
+  },
+  "packages": {
+    "@vellumai/plugin-api": ["@vellumai/plugin-api@0.10.12", "", { "dependencies": { "zod": "4.3.6" } }, "sha512-RiXSPDz9LhHRx8p5hMHcMdHxzKhtNdPzxoAKOdD3GoEbXBe237lgt59Ez0cRKulGGhtFrTp/Y+DCXj0KMDwv5Q=="],
+
+    "preact": ["preact@10.29.8", "", { "peerDependencies": { "preact-render-to-string": ">=5" }, "optionalPeers": ["preact-render-to-string"] }, "sha512-ej2aVZ+vZ8WO7tvlQWRM9N63A0KzF9q4mWJfDUHgYaIofWY9hu74QdnQrjoPMmZi2/nZ5gN0bJCQF49xQqx09Q=="],
+
+    "zod": ["zod@4.3.6", "", {}, "sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg=="],
+  }
+}
