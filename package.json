@@ -1,0 +1,17 @@
+{
+  "name": "pm-tenant-maintenance-triage",
+  "version": "0.1.0",
+  "description": "Triages inbound tenant maintenance requests for property managers: classifies severity, routes to the right vendor trade, checks lease and unit context, and drafts the dispatch note plus the tenant reply for human approval.",
+  "type": "module",
+  "scripts": {
+    "build:app": "bun build apps/triage-queue/src/main.tsx --outdir apps/triage-queue/dist --target browser --format esm --jsx-factory=h --jsx-fragment=Fragment --jsx-import-source=preact"
+  },
+  "dependencies": {
+    "preact": "10.29.8"
+  },
+  "peerDependencies": {
+    "@vellumai/plugin-api": "^0.10.0"
+  },
+  "license": "MIT",
+  "vellum": {}
+}
